@@ -1,6 +1,6 @@
 import java.util.Arrays;
 //Our cheaty array helper file <3
-public class Main {
+public class ArrayDebug {
     public static void main(String[] args) {
 
         //Create me an array named "nameArray" that is a string and has 4 values in it, give me 4 names of people or animals you care about
@@ -9,31 +9,60 @@ public class Main {
 
         //Create me an int array named "newArray" and set it to have 20 null spaces
 
+    //    String [] nameArray={"Connor","Nicole","Hunter","Ripley"};
+    //    System.out.println(Arrays.toString(nameArray));
+
+    // int[] numArray;
+
+
+    // int newArray[]=new  int[20];
+
+
+        
+        
+
+
 
 
 
         
-        //Here's our first practice array!
-        String[] sortMe = {"Apple","Kiwi","Orange","Banana","Watermelon","Strawberry"};
-       //What method is missing here to actually sort our array?
-        Arrays.?(sortMe);
-        //And what method is missing here to print out that array?
-        System.out.println(?);
-        //After this, you cannot use the array helper file, gotta go back to the old ways!!
+//         //Here's our first practice array!
+        // String[] sortMe = {"Apple","Kiwi","Orange","Banana","Watermelon","Strawberry"};
+//        //What method is missing here to actually sort our array?
+        // Arrays.sort(sortMe);
+//         //And what method is missing here to print out that array?
+        // System.out.println(Arrays.toString(sortMe));
+//         //After this, you cannot use the array helper file, gotta go back to the old ways!!
 
-        //another one!
-        int addMe[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        //How would we add every index together and print out the sum??
-        //A small hint:
-        int sum = 0;
-        for(?;?;?){
 
+
+
+//         //another one!
+//         int addMe[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+// //         //How would we add every index together and print out the sum??
+// //         //A small hint:
+//         int sum = 0;
+//         for(int i=0;i<=addMe.length;i++){
+//             sum=sum+i;
+//             System.out.println(sum);
+
+//         }
+        
+//         //thinking one! here's an array
+        int maxMe[] = {280, 4892, 134, 23, 1937, 5329, 932, 89,60000};
+        // Arrays.sort(maxMe);
+        // System.out.println(maxMe[7]);
+        // This is the easiest solution. Including it because why not.
+//         //What would you have to do to find the largest number and then print that value?
+        int bigNum=0;
+
+        for(int i=0;i<maxMe.length;i++){
+            if(maxMe[i]>bigNum){
+                bigNum=maxMe[i];
+                
+            }
         }
-        
-        //thinking one! here's an array
-        int maxMe[] = {280, 4892, 134, 23, 1937, 5329, 932, 89};
-        //What would you have to do to find the largest number and then print that value?
-        
+        System.out.println(bigNum);
 
     }
 }
